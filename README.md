@@ -21,7 +21,7 @@ This project shows the capability of a bot to react to messages sent within a gr
   * [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
 # Get your bot up and running<a name="deploy"></a>
-
+test test test
 ## Deploy to Heroku:
 
 Be sure to log into heroku, using your heroku credentials, then click the link below.
@@ -146,4 +146,3 @@ Then navigate to `http://127.0.0.1:5000/` in a browser.
 ![Local bot](http://i.groupme.com/502x133.png.f06c630467954f5dab4c742dc67b71bf)
 
 ## All done! Go play around and make the bot your own.
-
