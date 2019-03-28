@@ -19,8 +19,8 @@ function respond() {
 }
 
 function postMessage() {
-  var botResponse, options, body, botReq;
-
+  var botResponse, options, body, botReq,request;
+  request = JSON.parse(this.req.chunks[0]),
   botResponse = request.text;
 
   options = {
