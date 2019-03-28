@@ -29,5 +29,5 @@ server.listen(port);
 
 function ping() {
   this.res.writeHead(200);
-  this.res.end("Hey, I'm a test bot");
+  this.res.end("Hey, I'm a groupme test bot");
 }
