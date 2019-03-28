@@ -1,5 +1,5 @@
 var HTTPS = require('https');
-var cool = require('cool-ascii-faces');
+var cool = "hi";
 
 var botID = process.env.BOT_ID;
 
@@ -31,7 +31,7 @@ function postMessage() {
 
   body = {
     "bot_id" : botID,
-    "text" : "hi"
+    "text" : cool()
   };
 
   console.log('sending ' + botResponse + ' to ' + botID);
