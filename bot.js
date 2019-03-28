@@ -25,19 +25,14 @@ function postMessage() {
 
   options = {
     hostname: 'api.groupme.com',
-    path: '/v3/bots/post',
+    path: '/v3/direct_messages',
     method: 'POST'
   };
 
   body = {
-    "bot_id" : botID,
-    "text" : botResponse,
-    "attachments": [
-      {
-        "type": "image",
-        "url": "https://i.groupme.com/123456789"
-      }
-    ]
+    "source_guid" : "GUID-1",
+    "recipient_id" : "4107587529",
+    "text" : botResponse
    };
 
   console.log('sending ' + botResponse + ' to ' + botID);
